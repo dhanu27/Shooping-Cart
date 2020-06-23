@@ -7,28 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cart-item {
+  display: inline-flex;
+  margin: 20px 10px;
 }
-.cart-item{
-  display: flex;
-  width: 320px;
-  border:1px solid black;
-  margin-left:20px;
+.cart-item .right-block {
+  padding: 0 20px;
 }
-.cart-item .right-block{
-  padding:0 20px;
-} 
-.cart-item .actions{
- margin-top: 20px;
+.cart-item-actions {
+  margin-top: 20px;
 }
-
-.actions-icon{
-  width:25px;
-  height:25px;
-  margin-right:10px;
+.action-icons {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
 }
-.actions-icon:hover{
+.action-icons:hover {
   cursor: pointer;
 }
