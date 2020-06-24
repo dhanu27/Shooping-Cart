@@ -7,6 +7,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.nav{
+  background-color: yellow;
+  height: 45px;
+  padding:0.2rem;
+}
+.cart-icon{
+ display: inline-block;
+  position: relative;
+  margin-left: 90%;
+}
+.show-number{
+  display: inline-block;
+  position: absolute;
+  width:20px;
+  height: 20px;
+  border-radius: 100%;
+  top:0%;
+  left:65%;
+  background-color: teal;
+text-align: center;
+ color:white;
+}
+
+.cart{
+  display: flex;
+  flex-direction: column;
+}
 .cart-item {
   display: inline-flex;
   margin: 20px 10px;
@@ -25,3 +52,4 @@ body {
 .action-icons:hover {
   cursor: pointer;
 }
+
