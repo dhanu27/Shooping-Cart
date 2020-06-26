@@ -1,13 +1,12 @@
 import React from 'react';
-import CartItem from './CartItem'
-const NavBar=()=>  {
+const NavBar=(props)=>  {
    return (
         <div className="nav"> 
-          <div class="left-navbar">
+          <div className="left-navbar">
            </div>    
            <div className="cart-icon">
                <img style={styles.image} src="https://image.flaticon.com/icons/svg/1170/1170627.svg"/>
-                 <span  className="show-number">3</span> 
+                <span  className="show-number">{props.Count}</span> 
            </div>
         </div> 
    )
